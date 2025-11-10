@@ -1,5 +1,6 @@
 #' Plot Hegemon’s Strategic Area
 #'
+#' @description
 #' This function computes and visualizes the hegemon’s strategic decision space
 #' based on two varying distance parameters. It evaluates the hegemon’s choice
 #' (alignment, opposition, or defiance) over a grid of possible distances and

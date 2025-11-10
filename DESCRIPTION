@@ -1,14 +1,22 @@
 Package: MyTradePackage
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Type: Package
+Title: Strategic Trade and Conflict Simulation Framework
+Version: 0.2.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Mario", "Filho", email = "mario.lima2002@hotmail.com", 
+           role = c("aut", "cre"))
+Description: Provides a theoretical and computational model linking trade 
+    relations, hegemonic power, and military threats. The package includes 
+    analytical functions and visualization tools to explore strategic decision 
+    regions in a one-dimensional political space, following the framework of 
+    trade and conflict theory.
+License: MIT + file LICENSE
+URL: https://github.com/seu-usuario/MyTradePackage
+BugReports: https://github.com/seu-usuario/MyTradePackage/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Depends:
-    dplyr,
-    ggplot2
+Imports:
+    ggplot2,
+    dplyr
+Depends: R (>= 4.0)
