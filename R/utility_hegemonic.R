@@ -60,7 +60,8 @@ utility_hegemonic = function(regulars_position, alpha = 800, u = 400, tau = 600,
     hegemonic_position = useful_distance[i]
     utility_a_h = tau * sum(1 - abs(hegemonic_position - m_allies)) + tau*(1 - hegemonic_position)
     utility_o_h = tau * sum(1 - abs(hegemonic_position - m_opposers))
-    utility_d_h = utility_o_h + tau * sum(1 - abs(hegemonic_position - m_conditional)) - c * length(m_conditional)
+    utility_d_h = utility_o_h + tau * sum(1 - abs(hegemonic_position - m_conditional)) -
+      c*(length(m_conditional) + length(m_opposers))
     data[i, ] = c(hegemonic_position, utility_a_h, utility_o_h, utility_d_h)
   }
 
