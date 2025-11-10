@@ -115,8 +115,8 @@ hegemonic_area <- function(distance_vector,
       ),
       labels = c(
         "MT" = "Ally",
-        "B1" = "Oppose & Benefit",
-        "B0" = "Oppose & No Benefit"
+        "B1" = "Defy",
+        "B0" = "Oppose"
       )
     ) +
     scale_x_continuous(
